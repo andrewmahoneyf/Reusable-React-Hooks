@@ -1,11 +1,11 @@
 import { useState, useEffect, useRef } from 'react';
 
 export const useHover = () => {
-  const [value, setValue] = useState(false);
+  const [isHovered, setHovered] = useState(false);
   const ref = useRef(null);
 
-  const handleMouseOver = () => setValue(true);
-  const handleMouseOut = () => setValue(false);
+  const handleMouseOver = () => setHovered(true);
+  const handleMouseOut = () => setHovered(false);
 
   useEffect(() => {
     const node = ref.current;
@@ -20,5 +20,5 @@ export const useHover = () => {
     }
   }, [ref.current]);
 
-  return [ref, value];
+  return [ref, isHovered];
 };

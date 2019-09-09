@@ -21,6 +21,10 @@ For more helpful resources check out [awesome-react-hooks](https://github.com/re
 - [useOnScreen](/hooks/useOnScreen.js) - Trigger for when a component is scrolled into view
 - [useTimeout](/hooks/useTimeout.js) - Sets and clears a timeout with desired milliseconds
 - [useToggle](/hooks/useToggle.js) - Simple toggle hook useful for modals or switches
+- [useInterval](/hooks/useInterval.js) - Calls back received function for a set interval 
+- [useDidUpdate](/hooks/useDidUpdate.js) - Skip effet on initial render and check for update
+- [useScrollToTop](/hooks/useScrollToTop.js) - Scroll to top of container ref when trigger changes
+- [useScrollToBottom](/hooks/useScrollToBottom.js) - Scroll to bottom of container ref when trigger changes
 
 ---
 
